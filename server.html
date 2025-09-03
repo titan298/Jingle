@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinglebot.com - Local Server</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0d1117;
+            color: #f0f6fc;
+            margin: 0;
+            padding: 2rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #21262d;
+            padding: 2rem;
+            border-radius: 1rem;
+            border: 1px solid #30363d;
+        }
+        h1 { color: #5865f2; }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #5865f2 0%, #7c3aed 100%);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            margin: 1rem;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(35, 134, 54, 0.1);
+            border: 1px solid #238636;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            margin: 1rem 0;
+        }
+        .dot {
+            width: 8px;
+            height: 8px;
+            background: #238636;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+        .instructions {
+            text-align: left;
+            background: #161b22;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+        }
+        code {
+            background: #0d1117;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-family: 'Consolas', monospace;
+            color: #7ee787;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Jinglebot.com</h1>
+        <div class="status">
+            <div class="dot"></div>
+            <span>Development Server Ready</span>
+        </div>
+        
+        <p>Your professional Discord bot website is ready to launch!</p>
+        
+        <a href="index.html" class="btn">🚀 View Website</a>
+        
+        <div class="instructions">
+            <h3>📋 Quick Start Guide:</h3>
+            <ol>
+                <li>Click the "View Website" button above to see your site</li>
+                <li>The website includes your Discord link: <code>https://discord.gg/nwncQHp8fd</code></li>
+                <li>All files are in the current directory</li>
+                <li>To deploy, upload all files to your web hosting service</li>
+            </ol>
+            
+            <h3>✨ Features Included:</h3>
+            <ul>
+                <li>Modern responsive design</li>
+                <li>Animated statistics counters</li>
+                <li>Smooth scroll animations</li>
+                <li>Interactive particle background</li>
+                <li>Mobile-optimized navigation</li>
+                <li>Professional service showcase</li>
+                <li>Discord integration with your link</li>
+                <li>Status monitoring system</li>
+            </ul>
+            
+            <h3>🛠️ Tech Stack Used:</h3>
+            <p>Pure HTML5, CSS3, and JavaScript - no dependencies required!</p>
+        </div>
+    </div>
+    
+    <script>
+        // Simple analytics for local testing
+        console.log('🤖 Jinglebot.com Development Server Started');
+        console.log('📊 Ready to showcase advanced Discord bot solutions!');
+    </script>
+</body>
+</html>
